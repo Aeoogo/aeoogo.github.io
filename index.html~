@@ -2,34 +2,14 @@
 <html style="display: none;" lang="zh">
     <head>
     <meta charset="utf-8">
-    <!--
-        © Material Theme
-        https://github.com/viosey/hexo-theme-material
-        Version: 1.4.0 -->
     <script>window.materialVersion = "1.4.0"</script>
 
     <!-- Title -->
     
-    <title>
-        
-            归档 | 
-        
-        aeoogo
-    </title>
+    <title>aeoogo</title>
 
     <!-- dns prefetch -->
     <meta http-equiv="x-dns-prefetch-control" content="on">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
     <!-- Meta & Info -->
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -37,56 +17,60 @@
     <meta name="author" content="zzp">
     <meta name="description" itemprop="description" content="">
     <meta name="keywords" content="">
-
     <!-- Site Verification -->
-    
-    
-
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
     <link rel="icon" sizes="192x192" href="/img/favicon.png">
     <link rel="apple-touch-icon" href="/img/favicon.png">
-
     <!--iOS -->
     <meta name="apple-mobile-web-app-title" content="Title">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="480">
-
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="aeoogo">
-
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://aeoogo.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档 | aeoogo">
+    <meta property="og:title" content="aeoogo">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
-    
-
-    
-
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="归档 | aeoogo">
+    <meta name="twitter:title" content="aeoogo">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="http://aeoogo.com" />
-
     <!-- Add canonical link for SEO -->
-    
-        <link rel="canonical" href="http://aeoogo.com/archives/index.html" />
-    
-
+        <link rel="canonical" href="http://aeoogo.com" />
     <!-- Structured-data for SEO -->
-    
-        
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "aeoogo",
+        "logo": "/img/favicon.png"
+    },
+    "url": "http://aeoogo.com/index.html",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/img/favicon.png"
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://aeoogo.com"
+    },
+    "description": ""
+}
+</script>
+
 
 
 
@@ -277,6 +261,134 @@
 
                     <!-- Index Module -->
 <div class="material-index mdl-grid">
+    
+        <!-- Paradox Header -->
+        <!-- Daily pic -->
+<div class="mdl-card mdl-shadow--2dp daily-pic mdl-cell mdl-cell--8-col index-top-block">
+
+    <!-- Pic & Slogan -->
+    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
+        <p class="index-top-block-slogan"><a href="#">
+        
+            
+                Hi, nice to meet you
+            
+        
+        </a></p>
+    </div>
+
+    <!-- Avatar & Name -->
+    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+        <!-- Author Avatar -->
+        <div id="author-avatar">
+            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
+        </div>
+        <div>
+            <strong>zzp</strong>
+        </div>
+    </div>
+</div>
+
+        <!-- Blog info -->
+<div class="mdl-card mdl-shadow--2dp something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop index-top-block">
+
+    <!-- Search -->
+    
+    <!-- Google -->
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
+        <label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
+            <i class="material-icons mdl-color-text--white" role="presentation">search</i>
+        </label>
+
+        <form autocomplete="off" id="search-form" method="get" action="//google.com/search" accept-charset="UTF-8" class="mdl-textfield__expandable-holder" target="_blank">
+            <input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
+            <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
+
+            <input type="hidden" name="sitesearch" value="http://aeoogo.com">
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <!-- LOGO -->
+    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
+        <a href="#" target="_blank">
+            <img src="/img/logo.png" alt="logo" />
+        </a>
+    </div>
+
+    <!-- Infomation -->
+    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+        <!-- Blog Title -->
+        <div>
+            <strong>aeoogo</strong>
+        </div>
+        <div class="section-spacer"></div>
+
+        <!-- Pages -->
+        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">view_carousel</i>
+            <span class="visuallyhidden">Pages</span>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
+            
+        </ul>
+
+        <!-- Menu -->
+        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">more_vert</i>
+            <span class="visuallyhidden">show menu</span>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
+            
+
+            
+
+            
+                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=aeoogo&url=http://aeoogo.com/&pic=&searchPic=false&style=simple" target="_blank">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        分享到微博
+                    </li>
+                </a>
+            
+
+            
+                <a class="index_share-link" href="https://twitter.com/intent/tweet?text=aeoogo&url=http://aeoogo.com/&via=zzp" target="_blank">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        分享到 Twitter
+                    </li>
+                </a>
+            
+
+            
+                <a class="index_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://aeoogo.com/index.html" target="_blank">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        分享到 Facebook
+                    </li>
+                </a>
+            
+
+            
+                <a class="index_share-link" href="https://plus.google.com/share?url=http://aeoogo.com/" target="_blank">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        分享到 Google+
+                    </li>
+                </a>
+            
+
+            
+
+            
+
+            
+        </ul>
+    </div>
+</div>
+
     
     <div class="locate-thumbnail-symbol"></div>
 
@@ -537,16 +649,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 <!-- Theme Material -->
-<!--
 
-    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
-        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            主题 - Material
-            <span class="sidebar-badge badge-circle">i</span>
-        </div>
-    </a>
-
--->
 
 <!-- Help & Support -->
 <!--
@@ -654,14 +757,6 @@ It will not impact the appearance and can give developers a lot of support :)
         很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
         它不会影响美观并可以给开发者很大的支持。 :)
         -->
-
-        <div class="mdl-mini-footer--right-section">
-            <div>
-                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
-                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
-            </div>
-        </div>
-    
 </footer>
 
 
@@ -708,6 +803,12 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+    <!-- Swiftye -->
+    
+
+    <!-- Local Search-->
+    
+
 
 <!-- UC Browser Compatible -->
 <script>
@@ -750,7 +851,6 @@ It will not impact the appearance and can give developers a lot of support :)
 <script>
     (function(){
         var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
-
         for (var i = 0; i < scriptList.length; ++i) {
             var item = scriptList[i];
             lsloader.runInlineScript(item.id,item.id);
